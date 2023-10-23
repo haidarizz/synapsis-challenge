@@ -1,10 +1,13 @@
 # Challenge Synapsis - Analisis Tweet Covid-19
 
 ## Cara menjalankan kode
-1. Membuka file .ipynb melalui notebook yang biasa digunakan (Google Colab atau Jupyter Notebook).
-2. Menjalankan satu per satu cell kode yang ada pada file .ipynb.
-3. Beberapa hal mungkin harus disesuaikan lagi di masing-masing device, seperti ketika melakukan import dataset mungkin bisa terjadi error karena belum menyesuaikan dengan direktori yang ada pada device.
-4. Beberapa command mungkin harus disesuaikan juga untuk masing-masing device, seperti ketika melakukan penginstallan library, bisa menggunakan awalan `%` ataupun `!`.
+1. Men-download dataset covid-19 pada link di section `Catatan`.
+2. Membuka file `tweet-covid-analysis.ipynb` melalui notebook yang biasa digunakan (Google Colab atau Jupyter Notebook).
+3. Menjalankan satu per satu cell kode yang ada pada file .ipynb. Untuk direktori dataset yang di-download, disesuaikan lagi sesuai dengan tempat file dataset ditempatkan.
+4. Beberapa hal mungkin harus disesuaikan lagi di masing-masing device, seperti ketika melakukan import dataset mungkin bisa terjadi error karena belum menyesuaikan dengan direktori yang ada pada device.
+5. Beberapa command mungkin harus disesuaikan juga untuk masing-masing device, seperti ketika melakukan penginstallan library, bisa menggunakan awalan `%` ataupun `!`.
+
+File `tweet-covid-analysis.ipynb` yang saya upload sudah saya jalankan sepenuhnya di device saya, dan output dari analisis juga sudah terlihat pada file yang saya upload di GitHub sehingga menjalankan ulang file ini di device Anda adalah opsional karena Anda bisa melihat hasil analisis dan penjelasan kode secara lengkap di file `tweet-covid-analysis.ipynb` yang saya upload
 
 ## Catatan
 1. Dataset yang digunakan adalah dataset dari Kaggle, bisa diakses melalui link berikut: <https://www.kaggle.com/datasets/gpreda/covid19-tweets>.
@@ -14,4 +17,4 @@
 ## Link dashboard Tableau yang dibuat
 <https://public.tableau.com/views/ChallengeSynapsis_id/Story1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link>
 
-Penjelasan dapat diakses secara lengkap di file notebook .ipynb pada GitHub ini, di notebook tersebut telah diberikan penjelasan selengkap mungkin.
+Penjelasan dapat diakses secara lengkap di file notebook `tweet-covid-analysis.ipynb` pada GitHub ini, di notebook tersebut telah diberikan penjelasan selengkap mungkin.
